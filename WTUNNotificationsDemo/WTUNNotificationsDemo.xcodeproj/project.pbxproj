@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E25895C232782CC00575707 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB164E23277DB700C33F0C /* image.png */; };
+		8E25895F2327893400575707 /* WTNotificationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25895E2327893400575707 /* WTNotificationsManager.m */; };
+		8E2589612327983D00575707 /* timg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E2589602327983D00575707 /* timg.png */; };
+		8EAB161C2327756F00C33F0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB161B2327756F00C33F0C /* AppDelegate.m */; };
+		8EAB161F2327756F00C33F0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB161E2327756F00C33F0C /* ViewController.m */; };
+		8EAB16222327756F00C33F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB16202327756F00C33F0C /* Main.storyboard */; };
+		8EAB16242327757100C33F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB16232327757100C33F0C /* Assets.xcassets */; };
+		8EAB16272327757100C33F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB16252327757100C33F0C /* LaunchScreen.storyboard */; };
+		8EAB162A2327757100C33F0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB16292327757100C33F0C /* main.m */; };
+		8EAB16342327757100C33F0C /* WTUNNotificationsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB16332327757100C33F0C /* WTUNNotificationsDemoTests.m */; };
+		8EAB163F2327757100C33F0C /* WTUNNotificationsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB163E2327757100C33F0C /* WTUNNotificationsDemoUITests.m */; };
+		8EAB16512327805100C33F0C /* onevcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB164C23277D7600C33F0C /* onevcat.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EAB16302327757100C33F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EAB160F2327756F00C33F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EAB16162327756F00C33F0C;
+			remoteInfo = WTUNNotificationsDemo;
+		};
+		8EAB163B2327757100C33F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EAB160F2327756F00C33F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EAB16162327756F00C33F0C;
+			remoteInfo = WTUNNotificationsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E25895D2327893400575707 /* WTNotificationsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNotificationsManager.h; sourceTree = "<group>"; };
+		8E25895E2327893400575707 /* WTNotificationsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNotificationsManager.m; sourceTree = "<group>"; };
+		8E2589602327983D00575707 /* timg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timg.png; sourceTree = "<group>"; };
+		8EAB16172327756F00C33F0C /* WTUNNotificationsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTUNNotificationsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAB161A2327756F00C33F0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EAB161B2327756F00C33F0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EAB161D2327756F00C33F0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EAB161E2327756F00C33F0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EAB16212327756F00C33F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EAB16232327757100C33F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EAB16262327757100C33F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EAB16282327757100C33F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAB16292327757100C33F0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EAB162F2327757100C33F0C /* WTUNNotificationsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTUNNotificationsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAB16332327757100C33F0C /* WTUNNotificationsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTUNNotificationsDemoTests.m; sourceTree = "<group>"; };
+		8EAB16352327757100C33F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAB163A2327757100C33F0C /* WTUNNotificationsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTUNNotificationsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAB163E2327757100C33F0C /* WTUNNotificationsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTUNNotificationsDemoUITests.m; sourceTree = "<group>"; };
+		8EAB16402327757100C33F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAB164C23277D7600C33F0C /* onevcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onevcat.jpg; sourceTree = "<group>"; };
+		8EAB164E23277DB700C33F0C /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EAB16142327756F00C33F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAB162C2327757100C33F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAB16372327757100C33F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EAB160E2327756F00C33F0C = {
+			isa = PBXGroup;
+			children = (
+				8EAB16192327756F00C33F0C /* WTUNNotificationsDemo */,
+				8EAB16322327757100C33F0C /* WTUNNotificationsDemoTests */,
+				8EAB163D2327757100C33F0C /* WTUNNotificationsDemoUITests */,
+				8EAB16182327756F00C33F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EAB16182327756F00C33F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB16172327756F00C33F0C /* WTUNNotificationsDemo.app */,
+				8EAB162F2327757100C33F0C /* WTUNNotificationsDemoTests.xctest */,
+				8EAB163A2327757100C33F0C /* WTUNNotificationsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EAB16192327756F00C33F0C /* WTUNNotificationsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB164E23277DB700C33F0C /* image.png */,
+				8E2589602327983D00575707 /* timg.png */,
+				8EAB164C23277D7600C33F0C /* onevcat.jpg */,
+				8EAB161A2327756F00C33F0C /* AppDelegate.h */,
+				8EAB161B2327756F00C33F0C /* AppDelegate.m */,
+				8EAB161D2327756F00C33F0C /* ViewController.h */,
+				8EAB161E2327756F00C33F0C /* ViewController.m */,
+				8EAB16202327756F00C33F0C /* Main.storyboard */,
+				8E25895D2327893400575707 /* WTNotificationsManager.h */,
+				8E25895E2327893400575707 /* WTNotificationsManager.m */,
+				8EAB16232327757100C33F0C /* Assets.xcassets */,
+				8EAB16252327757100C33F0C /* LaunchScreen.storyboard */,
+				8EAB16282327757100C33F0C /* Info.plist */,
+				8EAB16292327757100C33F0C /* main.m */,
+			);
+			path = WTUNNotificationsDemo;
+			sourceTree = "<group>";
+		};
+		8EAB16322327757100C33F0C /* WTUNNotificationsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB16332327757100C33F0C /* WTUNNotificationsDemoTests.m */,
+				8EAB16352327757100C33F0C /* Info.plist */,
+			);
+			path = WTUNNotificationsDemoTests;
+			sourceTree = "<group>";
+		};
+		8EAB163D2327757100C33F0C /* WTUNNotificationsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB163E2327757100C33F0C /* WTUNNotificationsDemoUITests.m */,
+				8EAB16402327757100C33F0C /* Info.plist */,
+			);
+			path = WTUNNotificationsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EAB16162327756F00C33F0C /* WTUNNotificationsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAB16432327757100C33F0C /* Build configuration list for PBXNativeTarget "WTUNNotificationsDemo" */;
+			buildPhases = (
+				8EAB16132327756F00C33F0C /* Sources */,
+				8EAB16142327756F00C33F0C /* Frameworks */,
+				8EAB16152327756F00C33F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTUNNotificationsDemo;
+			productName = WTUNNotificationsDemo;
+			productReference = 8EAB16172327756F00C33F0C /* WTUNNotificationsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EAB162E2327757100C33F0C /* WTUNNotificationsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAB16462327757100C33F0C /* Build configuration list for PBXNativeTarget "WTUNNotificationsDemoTests" */;
+			buildPhases = (
+				8EAB162B2327757100C33F0C /* Sources */,
+				8EAB162C2327757100C33F0C /* Frameworks */,
+				8EAB162D2327757100C33F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EAB16312327757100C33F0C /* PBXTargetDependency */,
+			);
+			name = WTUNNotificationsDemoTests;
+			productName = WTUNNotificationsDemoTests;
+			productReference = 8EAB162F2327757100C33F0C /* WTUNNotificationsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EAB16392327757100C33F0C /* WTUNNotificationsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAB16492327757100C33F0C /* Build configuration list for PBXNativeTarget "WTUNNotificationsDemoUITests" */;
+			buildPhases = (
+				8EAB16362327757100C33F0C /* Sources */,
+				8EAB16372327757100C33F0C /* Frameworks */,
+				8EAB16382327757100C33F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EAB163C2327757100C33F0C /* PBXTargetDependency */,
+			);
+			name = WTUNNotificationsDemoUITests;
+			productName = WTUNNotificationsDemoUITests;
+			productReference = 8EAB163A2327757100C33F0C /* WTUNNotificationsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EAB160F2327756F00C33F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = wzt;
+				TargetAttributes = {
+					8EAB16162327756F00C33F0C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8EAB162E2327757100C33F0C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8EAB16162327756F00C33F0C;
+					};
+					8EAB16392327757100C33F0C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8EAB16162327756F00C33F0C;
+					};
+				};
+			};
+			buildConfigurationList = 8EAB16122327756F00C33F0C /* Build configuration list for PBXProject "WTUNNotificationsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EAB160E2327756F00C33F0C;
+			productRefGroup = 8EAB16182327756F00C33F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EAB16162327756F00C33F0C /* WTUNNotificationsDemo */,
+				8EAB162E2327757100C33F0C /* WTUNNotificationsDemoTests */,
+				8EAB16392327757100C33F0C /* WTUNNotificationsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EAB16152327756F00C33F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAB16512327805100C33F0C /* onevcat.jpg in Resources */,
+				8EAB16272327757100C33F0C /* LaunchScreen.storyboard in Resources */,
+				8E2589612327983D00575707 /* timg.png in Resources */,
+				8EAB16242327757100C33F0C /* Assets.xcassets in Resources */,
+				8EAB16222327756F00C33F0C /* Main.storyboard in Resources */,
+				8E25895C232782CC00575707 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAB162D2327757100C33F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAB16382327757100C33F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EAB16132327756F00C33F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAB161F2327756F00C33F0C /* ViewController.m in Sources */,
+				8EAB162A2327757100C33F0C /* main.m in Sources */,
+				8EAB161C2327756F00C33F0C /* AppDelegate.m in Sources */,
+				8E25895F2327893400575707 /* WTNotificationsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAB162B2327757100C33F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAB16342327757100C33F0C /* WTUNNotificationsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAB16362327757100C33F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAB163F2327757100C33F0C /* WTUNNotificationsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EAB16312327757100C33F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EAB16162327756F00C33F0C /* WTUNNotificationsDemo */;
+			targetProxy = 8EAB16302327757100C33F0C /* PBXContainerItemProxy */;
+		};
+		8EAB163C2327757100C33F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EAB16162327756F00C33F0C /* WTUNNotificationsDemo */;
+			targetProxy = 8EAB163B2327757100C33F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EAB16202327756F00C33F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAB16212327756F00C33F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EAB16252327757100C33F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAB16262327757100C33F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EAB16412327757100C33F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EAB16422327757100C33F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EAB16442327757100C33F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNS9QEVKGH;
+				INFOPLIST_FILE = WTUNNotificationsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzt.WTUNNotificationsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EAB16452327757100C33F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNS9QEVKGH;
+				INFOPLIST_FILE = WTUNNotificationsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzt.WTUNNotificationsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EAB16472327757100C33F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WTUNNotificationsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzt.WTUNNotificationsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTUNNotificationsDemo.app/WTUNNotificationsDemo";
+			};
+			name = Debug;
+		};
+		8EAB16482327757100C33F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WTUNNotificationsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzt.WTUNNotificationsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTUNNotificationsDemo.app/WTUNNotificationsDemo";
+			};
+			name = Release;
+		};
+		8EAB164A2327757100C33F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WTUNNotificationsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzt.WTUNNotificationsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WTUNNotificationsDemo;
+			};
+			name = Debug;
+		};
+		8EAB164B2327757100C33F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WTUNNotificationsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzt.WTUNNotificationsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WTUNNotificationsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EAB16122327756F00C33F0C /* Build configuration list for PBXProject "WTUNNotificationsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAB16412327757100C33F0C /* Debug */,
+				8EAB16422327757100C33F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAB16432327757100C33F0C /* Build configuration list for PBXNativeTarget "WTUNNotificationsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAB16442327757100C33F0C /* Debug */,
+				8EAB16452327757100C33F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAB16462327757100C33F0C /* Build configuration list for PBXNativeTarget "WTUNNotificationsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAB16472327757100C33F0C /* Debug */,
+				8EAB16482327757100C33F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAB16492327757100C33F0C /* Build configuration list for PBXNativeTarget "WTUNNotificationsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAB164A2327757100C33F0C /* Debug */,
+				8EAB164B2327757100C33F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EAB160F2327756F00C33F0C /* Project object */;
+}
